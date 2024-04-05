@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(22, 22, 51);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.15fr 1fr 0.3fr;
+}
+
+.header{
+   grid-area: 1,1,2,2; 
+   background-color: rgb(61, 61, 85);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer{
+    background-color: rgb(79, 79, 112);
+}
+
+.cup{
+    width: 200px;
+    height: 350px;
+    background-color: transparent;
+    border: 5px solid aquamarine;
+    border-bottom-left-radius: 70px ;
+    border-bottom-right-radius: 70px ;
+    position: relative;
+    
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+}
+
+.water{
+    width: 190px;
+    height: 250px;
+    background-color: aqua;
+    border-bottom-left-radius: 70px ;
+    border-bottom-right-radius: 70px ;
+    position: absolute;
+    bottom: 0;
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    
+}
+
+p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(137, 43, 226, 0.394);
+    position: absolute;
+    left: -50px;
+    top: -50px;
+
+}
+
+.circle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(137, 43, 226, 0.394);
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.navpart{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-right:60px ;
+}
+
+.name{
+    font-family: sans-serif;
+    color: white;
+    padding-left:60px ;
+}
+
+.name1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(185, 180, 242);
+    font-weight: bold;
+    padding-left:5px ;
+}
+.namecontainer{
+    display: flex;
+}
