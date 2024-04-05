@@ -2,5 +2,5 @@
   <h1>
     Samantha's water drinking Project
   </h1>
-  <img src = "pic.png">
+  <img src = "./pic.png">
 </html>
